@@ -9,7 +9,7 @@ Scans are read-only. Tagging is optional and supports Anki's Undo.
 ## Install and open
 
 If installing from source, copy the project into
-`addons21/anki_duplicate_field_checker/`, with `__init__.py` directly inside that
+`addons21/anki-adf/`, with `__init__.py` directly inside that
 folder. You can locate add-on folders through **Tools → Add-ons → View Files**.
 Restart Anki after installing or updating.
 
@@ -201,3 +201,13 @@ synthetic Anki collection. These checks do not open the user's collection.
 Keep `config.json`, `manifest.json`, runtime modules and test sources in version
 control. `.gitignore` excludes personal Anki state, Python caches, local reports,
 packages and generated QA outputs. It keeps the `.qa` scripts and documentation.
+
+## Releases and AnkiWeb listing
+
+See [Publishing](docs/PUBLISHING.md) for upload steps and the prepared
+[AnkiWeb description](docs/ankiweb-description.html). Build a clean upload package
+with `python -B build_release.py --version 0.1.0`.
+
+## License
+
+GNU Affero General Public License v3.0. See [LICENSE](LICENSE).
