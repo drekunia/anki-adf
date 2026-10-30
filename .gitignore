@@ -1,0 +1,48 @@
+# Anki's local add-on state: settings, presets, history and ignored note pairs.
+# Keep config.json (shared defaults) and manifest.json in version control.
+/meta.json
+/meta.json.*
+/meta.backup.json
+/user_files/
+
+# Python caches and local environments.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Test, lint and coverage outputs.
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Generated QA outputs. Keep .qa source scripts and documentation.
+/.qa/host.exe
+/.qa/host.pdb
+/.qa/*.png
+/.qa/*.csv
+/.qa/collection-*/
+
+# Build outputs and local duplicate reports.
+/build/
+/dist/
+*.egg-info/
+*.ankiaddon
+/anki_duplicates*.csv
+
+# Temporary files and operating-system metadata.
+*.log
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+tempCodeRunnerFile.py
