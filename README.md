@@ -4,6 +4,10 @@ Compare note fields across Anki decks and note types, inspect matches side by
 side, and tag the notes you choose. Useful for checks such as **Kiku Expression
 ↔ Kaishi Word**.
 
+![Search settings](docs/screenshots/search.png)
+
+![Duplicate results](docs/screenshots/results.png)
+
 Scans are read-only. Tagging is optional and supports Anki's Undo.
 
 ## Install and open
