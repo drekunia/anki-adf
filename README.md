@@ -1,8 +1,7 @@
 # Advanced Duplicate Finder
 
 Compare note fields across Anki decks and note types, inspect matches side by
-side, and tag the notes you choose. Useful for checks such as **Kiku Expression
-↔ Kaishi Word**.
+side, and tag the notes you choose.
 
 <table>
   <tr>
