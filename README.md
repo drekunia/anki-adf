@@ -216,6 +216,12 @@ Keep `config.json`, `manifest.json`, runtime modules and test sources in version
 control. `.gitignore` excludes personal Anki state, Python caches, local reports,
 packages and generated QA outputs. It keeps the `.qa` scripts and documentation.
 
+Build a clean upload package with:
+
+```powershell
+python -B build_release.py --version 0.1.0
+```
+
 ## License
 
 GNU Affero General Public License v3.0. See [LICENSE](LICENSE).
